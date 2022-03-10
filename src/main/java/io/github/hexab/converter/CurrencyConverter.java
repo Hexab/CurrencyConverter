@@ -18,7 +18,7 @@ public class CurrencyConverter {
         String currencyTwo = scanner.next();
 
         System.out.println("What is the amount you want to convert?");
-        double amount = scanner.nextInt();
+        double amount = scanner.nextDouble();
         convert(currency, amount, currencyTwo);
     }
 
